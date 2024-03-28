@@ -3,7 +3,6 @@ on:
   pull_request:
     types: opened
     branches:
-      - main
       - 'dev-*' #dev-new dev-this-new
       - 'feat/**' #fett/bbsa/dsd kjksdhkjjh
   workflow_dispatch:
