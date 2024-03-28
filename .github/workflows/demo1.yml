@@ -11,7 +11,7 @@ on:
     branches:
       - main
       - 'dev-*' #dev-new dev-this-new
-      - 'feat/**' #fett/bbsa/dsd
+      - 'feat/**' #fett/bbsa/dsd  funny fellow
     paths-ignore:
       - '.github/workflows/*'
 jobs:
