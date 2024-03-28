@@ -3,6 +3,13 @@ on:
   pull_request:
     types: opened
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - 'dev-*' #dev-new dev-this-new
+      - 'feat/**' #fett/bbsa/dsd
+    paths-ignore:
+      - '.github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
