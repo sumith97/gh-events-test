@@ -2,6 +2,10 @@ name: Events Demo 1
 on:
   pull_request:
     types: opened
+    branches:
+      - main
+      - 'dev-*' #dev-new dev-this-new
+      - 'feat/**' #fett/bbsa/dsd
   workflow_dispatch:
   push:
     branches:
