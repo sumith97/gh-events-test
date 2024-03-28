@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - 'dev-*' #dev-new dev-this-new
-      - 'feat/**' #fett/bbsa/dsd
+      - 'feat/**' #fett/bbsa/dsd kjksdhkjjh
   workflow_dispatch:
   push:
     branches:
